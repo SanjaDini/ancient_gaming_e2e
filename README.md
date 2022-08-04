@@ -1,4 +1,4 @@
-# Requirments
+# Requirements
 
 ## Required packages
 npm
