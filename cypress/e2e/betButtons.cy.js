@@ -12,7 +12,7 @@ describe('Bet buttons should work as expected', () => {
                 const profitOnWinBefore = element.text();
                 getByTestId(testId).click({ force: true });
                 const profitOnWinAfter = element.text();
-                expect(profitOnWinBefore).to.not.eq(profitOnWinAfter);
+                expect(profitOnWinBefore).to.eq(profitOnWinAfter);
                 cy.contains(labels.ROLL_DICE).click({ force: true });
                 cy.contains(labels.SIGN_IN).should('be.visible');
             });

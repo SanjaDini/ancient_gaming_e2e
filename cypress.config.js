@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: 'To2OHh',
   e2e: {
     baseUrl: 'https://www.csgoroll.com/en/dice/'
   },
